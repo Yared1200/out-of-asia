@@ -1,13 +1,28 @@
+@import url('https://www.fonts.googleapis.com/css2?family=Nunito:wght@1000&display=swap');
 html {
-    background-color: rgb(255, 16, 255);
+    background-color: rgb(255, 141, 161);
+    scrollbar-width: thick;
+    scrollbar-color: rgb(69, 69, 69) rgb(255, 255, 255);
+}
+.title {
+    font-family: 'Nunito', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 1000;
+    text-align: center;
 }
 
-@font-face {
-    font-family: 'Helvetica Rounded';
-    src: url("https://") format("");
+.description {
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
 }
-
-#gamePlay button {
-    background-color: #a6d45a;
-    padding: 20px
+.button {
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: rgb(205, 7, 30);
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
 }
