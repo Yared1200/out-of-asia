@@ -1,0 +1,13 @@
+html {
+    background-color: rgb(255, 16, 255);
+}
+
+@font-face {
+    font-family: 'Helvetica Rounded';
+    src: url("https://") format("");
+}
+
+#gamePlay button {
+    background-color: #a6d45a;
+    padding: 20px
+}
